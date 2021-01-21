@@ -36,6 +36,8 @@ function App() {
     e.preventDefault();
     dispatch({type: ACTIONS.ADD_TASKNAME, payload: {taskName: taskName}})
     // console.log(taskList);
+    // console.log(taskList);
+    // console.log(taskList);
     setTaskName('');
   }
   return (
